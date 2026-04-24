@@ -1,10 +1,18 @@
 # AMD_HACKATHON - After 8 App
 
-## React + Vite
+# 1. Create project
+npm create vite@latest after8 -- --template react
+cd after8
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 2. Replace src/ with project files
 
-Currently, two official plugins are available:
+# 3. Run locally
+npm install
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 4. Run tests
+node tests/run.js
+
+# 5. Build for deployment
+npm run build
+# → drag dist/ folder to netlify.com/drop for instant live URL
